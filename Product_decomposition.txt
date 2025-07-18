@@ -1,1 +1,60 @@
+Who → What → Why → How → When
 
+
+Who → What → Why → How → When
+==============================
+
+1. WHO (Users / Stakeholders)
+------------------------------
+- Dubber: Works on assigned clips to create dubbed audio.
+- QA: Reviews and approves/rejects dubbed clips with feedback.
+- Manager: Creates projects, assigns tasks, monitors progress.
+- Studio Admins: Interested in timely, quality-assured delivery with reporting and control.
+
+2. WHAT (Key Features & Capabilities)
+-------------------------------------
+For Manager:
+- Create dubbing projects with file uploads and language targets.
+- Break files into clips, assign tasks manually or automatically.
+- Configure due dates, QA count needed, and time ranges.
+- View dashboards for project status, metrics (e.g., time to completion, iterations).
+
+For Dubber:
+- Access task dashboard with assigned clips and statuses.
+- Use dubbing editor (e.g., 11Labs) to dub and clone voice.
+- Submit partial clips for QA review.
+- View and respond to QA comments.
+- Receive real-time notifications on task updates.
+
+For QA:
+- Access clips submitted for review.
+- Add timestamped comments, approve/reject clips.
+- Approve entire tasks once satisfied.
+- Work independently or in parallel with other QAs.
+- Get notified on new submissions or comments.
+
+3. WHY (Problems / Goals)
+--------------------------
+- Studios need scalable and quality-assured dubbing workflows.
+- Manual task assignment and QA feedback loops are inefficient and slow.
+- Collaboration between dubbers and QA is fragmented in current tools.
+- Project delays occur when dubbers are unavailable or QA reviews conflict.
+
+4. HOW (Design / Architecture / Workflow)
+-----------------------------------------
+- Role-Based Access Control (RBAC) ensures the right permissions for each user type.
+- Project creation wizard allows managers to define clips, timelines, and assignments.
+- Dashboards with filters help managers track progress and identify delays.
+- Dubbers can submit clips partially for faster QA feedback cycles.
+- QA dashboard supports independent reviews; comments and decisions are tracked.
+- Conflict resolution: conflicting QA reviews flagged for manager intervention.
+- Dubber unavailability handled via reassignment workflows and progress preservation.
+- In-app notifications and version tracking enhance collaboration and accountability.
+
+5. WHEN (Workflow Timing / Feature Use)
+----------------------------------------
+- Manager sets up project → assigns clips to dubbers and QA → dubbing begins.
+- Dubbers submit clips partially → QAs begin reviewing in parallel.
+- QA reviews may conflict → flagged for discussion or manager override.
+- If dubber becomes unavailable → system alerts manager → clips can be reassigned.
+- Project progresses with notifications at each key event (submission, review, rework).
