@@ -1,0 +1,70 @@
+1. What if a dubber is unavailable mid-project?
+==============================================
+
+🔥 Problem:
+Dubbers may become unavailable due to illness, bandwidth issues, or leaving the studio — risking project delays and team bottlenecks.
+
+✅ Design Ideas:
+
+a. Dubber Availability Status
+- Each dubber can set their availability (Available / Unavailable).
+- Managers can also mark dubbers unavailable if informed externally.
+- Tasks can be auto-flagged if assigned to an unavailable dubber.
+
+b. Auto-Reassignment Logic
+- If a dubber is unavailable for more than X hours/days:
+  - Manager gets notified: “Dubber A is unavailable; do you want to reassign their 3 incomplete clips?”
+  - Manager can manually or auto-reassign unstarted or WIP clips.
+  - Work already completed by the dubber is preserved and attributed correctly.
+
+c. Collaborative Editing Mode (Optional enhancement)
+- Allow another dubber to “take over” the task collaboratively (like Google Docs), especially in tight deadlines.
+- Lock editing to avoid race conditions; show who’s currently working.
+
+d. Version & Progress Preservation
+- Keep history of previous work done by the dubber.
+- Let new dubber pick up where the last one left off (reuse dubs, comments, etc.).
+
+e. Analytics Alert
+- In dashboards: highlight stuck tasks or incomplete clips with overdue status and reason like “Dubber unavailable”.
+
+
+
+2. How to handle conflicting QA reviews?
+========================================
+
+🔥 Problem:
+Multiple QAs may disagree on tone, timing, or lip-sync quality of a clip. Conflicts need resolution before final approval.
+
+✅ Design Ideas:
+
+a. Independent QA Reviews + Aggregation
+- Let each QA submit their review independently.
+- System aggregates:
+  - If all approve → auto-approved
+  - If any reject → moves to “conflict” state
+
+b. QA Consensus Workflow
+- For conflicting reviews:
+  - Alert manager or senior QA: “Clip has conflicting reviews from QA1 and QA2”
+  - Present side-by-side QA comments
+  - Allow resolution through:
+    - Discussion (threaded comments)
+    - Manager override (Final call)
+    - Request rework from dubber (reset state)
+
+c. Confidence Voting or Tiebreakers (Advanced)
+- Use weighted voting (e.g., senior QAs count more)
+- Or use a rotating “Lead QA” who resolves conflicts
+- Or escalate to manager if more than one conflict occurs on a clip
+
+d. Collaborative QA Panel View
+- Show all QA decisions and comments in a unified thread
+- Allow tagging: “@QA2, what do you think about the timing here?”
+- Promote transparency and peer discussion
+
+e. Audit Trail
+- Keep detailed logs of:
+  - Who reviewed
+  - Who overrode
+  - When and why decisions were made (comment required for override)
