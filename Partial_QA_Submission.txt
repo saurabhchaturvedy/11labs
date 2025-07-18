@@ -1,0 +1,67 @@
+How Partial Submissions Help with Parallel QA and Faster Turnaround
+====================================================================
+
+What is Partial Submission?
+---------------------------
+Partial submission means that a dubber can submit only a subset of clips or work-in-progress content for review, instead of waiting until the entire task (e.g., a full episode or scene) is completed.
+
+Why It Matters
+--------------
+In large dubbing projects (e.g., TV series, movies), full tasks can take days or even weeks. Waiting until the whole task is done delays the start of QA — which creates a serial bottleneck:
+- Dubber completes task → QA starts → Rework needed → Dubber starts again → Repeat
+
+This linear workflow slows everything down.
+
+Benefits of Partial Submission
+------------------------------
+
+1. Enables Parallel Processing
+- As soon as Clip A is ready, it can go to QA while the dubber works on Clip B.
+- QA team starts giving feedback immediately.
+- Reduces idle time for QA — they’re not waiting for the whole episode to finish.
+- Overall dubbing + review process becomes asynchronous and parallelized.
+
+2. Faster Feedback Loops
+- QA can catch tone mismatches, lip-sync issues, or voice inconsistency early.
+- Dubber applies that feedback to subsequent clips.
+- Prevents repeating the same mistake across dozens of clips.
+
+3. Reduces Rework Time
+- If the entire task is done incorrectly (tone, sync, etc.), the whole thing must be redone.
+- With partial submissions:
+  - Only small parts need rework.
+  - Corrections are incremental and low-cost.
+
+4. Improves QA Load Distribution
+- QA can pick and review clips independently.
+- Multiple QAs can work on different clips from the same project at the same time.
+- Encourages task-level parallelism across QA resources.
+
+5. Better Collaboration and Communication
+- Dubber sees QA comments in real-time and can respond inline.
+- Builds a tight feedback loop, even when teams are distributed across time zones.
+
+6. Helps with Progress Visibility
+- Managers can see which clips are:
+  - In progress
+  - Submitted for review
+  - Approved or rejected
+- Gives early signals on delays or quality issues.
+- Allows for early reassignment if needed.
+
+Example Scenario
+----------------
+Let’s say a 60-minute episode is split into 30 clips.
+
+Without partial submission:
+- Dubber takes 5 days to finish → QA starts → 2 more days for review → 1-2 days for rework
+
+With partial submission:
+- Dubber submits first 10 clips on Day 2 → QA starts review same day
+- By Day 3, Dubber receives feedback and improves next 10 clips
+- Final 10 clips already have much better quality
+- Net turnaround time reduces by 30–40%
+
+Interview Pro Tip
+-----------------
+“This mirrors agile workflows in software — smaller iterations mean quicker feedback and faster improvements. It’s the same philosophy applied to dubbing.”
