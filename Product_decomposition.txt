@@ -58,3 +58,20 @@ For QA:
 - QA reviews may conflict → flagged for discussion or manager override.
 - If dubber becomes unavailable → system alerts manager → clips can be reassigned.
 - Project progresses with notifications at each key event (submission, review, rework).
+
+
+
+* Create Project
+    * Select audio/video file
+    * Select target languages
+    * Option to specify duration of each task for dubber
+    * The dubber editor kind of interface to manually assign task to dubbers
+    * Option to auto assign the task to the dubbers
+    * Option to specify the number of QA approval needed (default 1)
+    * Options to specify due date
+    * Options to specify time ranges to dub the file
+    # Notifications for managers , e.g a dubber is unavailable , then option to re-assign the rest of the task .
+
+
+* Dashboard to keep track of the in-progress (/completed) projects
+* Dashboard for important metrics like time to completion, number of iterations etc. This will have filters has well to drill down the metrics like movie name, series name, languages etc.
